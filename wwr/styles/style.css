@@ -220,8 +220,57 @@ main section img{
     grid-row: 5/8;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
-
 }
+
+    /*Page Rivers*/
+#pic-img{
+    width: 100%;
+    
+}
+#rivers{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+}
+
+
+.rivers-grid{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+}
+    
+    
+
+.salmon-pic{
+    grid-column: 1/2;
+    margin-top: 45px;
+}
+.text-salmon{
+    grid-column: 2/3;
+    margin-top: 45px;
+    
+}
+
+.canyon-pic{
+    grid-column: 1/2;
+    
+    
+}
+.text-canyon{
+    grid-column: 2/3;
+   
+    
+}
+.arizona-pic{
+    grid-column: 1/2;
+}   
+    
+    
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
