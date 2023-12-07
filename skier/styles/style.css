@@ -30,8 +30,8 @@ main section{
     text-align: auto;
 }
 #background{
-    height: 725px;
-    background-color: #734778;
+    height: 900px;
+    background-color:#a70ed1;
   
 }
 body{
@@ -53,9 +53,11 @@ nav a:hover{
 }
 .book, .join{
     padding: 15px 30px;
-    background-color:#FF82A9;
-    background-color:;
+    background-color:#a70ed1;;
     text-decoration: none;
+
+
+
 
 }
 
@@ -75,9 +77,6 @@ nav a:hover{
     line-height: 1.5em;
     text-align: justify;
     border: 10px solid #a70ed1;
-    
-   
-
 }
 .text-3{
     padding: 2em;
@@ -94,8 +93,6 @@ nav a:hover{
     margin: 100px 0;
 
 }
-
-
 footer{
     background-color:white;   
     color: #0c54aa
@@ -135,23 +132,7 @@ h4{
     color:#0c54aa;
     color:#091540;
 }
-.msg{
-    grid-column: 6/10;
-    grid-row: 6/7;
-    background-color: hsl(44, 85%, 66%);
-    padding: 35px;
-    box-shadow: 5px 5px 10px #e2d866;
 
-}
-.msg h2{
-    color: #734778
-
-}
-.msg p{
-    padding-bottom: 15px;
-    font-size: .8em;
-    color: black;
-}
 footer{
     padding: 25px 50px;
     color: black;
@@ -222,9 +203,8 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
-.rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
-}
+
+
 .card-img{
     border: 10px solid #0c54aa;
     transition: transform .5s;
@@ -238,8 +218,6 @@ footer p a:hover {
     opacity: .6;
     transform: scale(1.1);
 
-
-
 }
 main section img{
     box-sizing: border-box;
@@ -248,6 +226,70 @@ main section img{
     grid-column: 1/11;
     grid-row: 4/9;
 }
+
+/*Training & Equipment*/
+
+.page-title{
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: "Croissant One",Helvetica, sans-serif;
+    color: #091540;
+}
+
+#training-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 200px;
+    
+}
+
+#training-msg h1{
+    text-align: center;
+}
+
+.training-grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+#background{
+    grid-column: 1/11;
+    grid-row: 1/11;
+    margin-top: 50px;
+}
+.equipment{
+    grid-column: 2/9;
+    grid-row: 4/7;
+    width: 55%;
+    margin-top: 50px;
+    
+    border: 10px ;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #e3a2d4;
+}
+.msg{
+    grid-column: 5/10;
+    grid-row: 6/7;
+    background-color:#FF82A9;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #e266bd;
+
+}
+.msg h2{
+    color:  #091540
+
+}
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+    color:  #091540;
+}
+
+.me-card, h2{
+    color: #e4c0ee;
+
+}
+
+
 /*FLIP CARD*/
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -258,9 +300,7 @@ main section img{
     perspective: 1000px; /* Remove this if you don't want the 3D effect */ 
 
     padding-bottom: 25px;
-   
-    
-  }
+}
   
   /* This container is needed to position the front and back side */
   .flip-card-inner {
@@ -271,15 +311,12 @@ main section img{
     transition: transform 0.8s;
     transform-style: preserve-3d;
     
-  }
+}
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-   
- 
-    
-  }
+}
   
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
@@ -291,7 +328,7 @@ main section img{
     border-radius: 50px;
     border-color: #734778;
     
-  }
+}
   
   /* Style the front side (fallback if image is missing) */
   
@@ -306,12 +343,12 @@ main section img{
     border-radius: 50%;
     display: flex;
     justify-content: center;
-  }
+}
 
   #text{
     display: block;
     margin: auto;
-  }
+}
 
     /*Page Rivers*/
 #pic-img{
