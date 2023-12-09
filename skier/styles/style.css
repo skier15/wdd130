@@ -53,10 +53,8 @@ nav a:hover{
 }
 .book, .join{
     padding: 15px 30px;
-    background-color:#a70ed1;;
+    background-color:#a70ed1;
     text-decoration: none;
-
-
 
 
 }
@@ -67,9 +65,7 @@ nav a:hover{
     line-height: 1.5em;
     text-align: justify;
     border: 10px solid #a70ed1;
-    
-   
-
+  
 }
 .text-2{
     padding: 2em;
@@ -288,6 +284,70 @@ main section img{
     color: #e4c0ee;
 
 }
+/*Ski Resorts*/
+
+
+main section img{
+    box-sizing: border-box;
+}
+#card-img{
+    width: 100%;
+    
+}
+.ski-img, .slope-img{
+    border: 10px solid #091540;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #b777f3;
+}
+ 
+.ski-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-gap: 40px; 
+}
+    
+.ski-card{
+    grid-column: 1/2;
+    margin-top: 45px;
+      
+}
+
+.text-roza{
+    grid-column: 2/3;
+    margin-top: 45px;   
+    text-align: justify;
+}
+.icon{
+    padding-top: 10px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+.icon2{
+    
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 210px;
+    margin-top: 5px;
+}
+.slope-card{
+    grid-column: 1/2;
+    
+}
+.text-slope{
+    grid-column: 2/3; 
+    text-align: justify;
+}
+.ski-img, .slope-img{
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+}
+    
 
 
 /*FLIP CARD*/
